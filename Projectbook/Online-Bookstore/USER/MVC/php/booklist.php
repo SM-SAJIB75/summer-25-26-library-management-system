@@ -39,7 +39,7 @@ if (isset($_GET['category']) && trim($_GET['category']) != "") {
         </button>
     </div>
 </form>
-
+//Pushpita
 <!-- CATEGORY SECTION -->
 <div class="category-section">
     <a href="#" class="category-btn category-filter" data-category="" data-active="<?php echo $category === '' ? '1' : '0'; ?>">All</a>
