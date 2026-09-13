@@ -1,0 +1,134 @@
+@import url("../../../USER/MVC/Css/theme.css");
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh; 
+    background-color: #5a3ea1;
+    padding: 20px;
+    float: left; 
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #6f52b8; 
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #8369c7;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+    text-align: center; 
+    box-sizing: border-box;
+}
+
+.content h1 {
+    color: #5a3ea1;
+    border: 3px solid #5a3ea1;
+    border-radius: 10px;
+    padding: 15px 30px;
+    display: inline-block;
+    background-color: #f2eaff; 
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 12px 25px;
+    margin-bottom: 15px;
+    border: 2px solid #5a3ea1;
+    border-radius: 8px;
+    background-color: #5a3ea1;    
+    color: white;                  
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+.logout {
+    float: right;            
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    color: #5a3ea1;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #5a3ea1;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.logout:hover {
+    background-color: #be141f;
+    color: white;
+}
+
+.content hr {
+    width: 80%;
+    margin: 0 auto 30px;
+    border: 1px solid #ccc;
+}
+
+.cards {
+    width: 100%;
+    text-align: center; 
+}
+
+.card {
+    width: 260px;
+    height: 180px;
+    background-color: #ffffff; 
+    padding: 15px;           
+    margin: 10px;            
+    display: inline-block;  
+    vertical-align: top;     
+    border-radius: 8px;      
+    border: 1px solid #ccc;  
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1); 
+}
+
+.card:hover {
+    background-color: #f0f0f0; 
+    width: 270px;
+    height: 185px;
+    border: 1px solid #999;    
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.15); 
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #5a3ea1;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+}

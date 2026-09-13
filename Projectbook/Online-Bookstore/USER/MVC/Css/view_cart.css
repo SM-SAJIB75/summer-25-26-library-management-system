@@ -1,0 +1,159 @@
+@import url("../../../USER/MVC/Css/theme.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Title */
+.page-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+/* Cart card */
+.cart-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 22px;
+    margin-bottom: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Left */
+.cart-left {
+    flex: 1;
+}
+
+.cart-left h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.cart-left p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* FIXED QUANTITY UI */
+.qty-box {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.qty-box button {
+    all: unset;     
+    width: 34px;
+    height: 34px;
+    background: #2575fc;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.qty-box button:hover {
+    background: #1e60d4;
+}
+
+.qty {
+    width: 40px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+    font-weight: 600;
+}
+
+/* Right */
+.cart-right {
+    text-align: right;
+    min-width: 150px;
+}
+
+.cart-right p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 8px;
+}
+
+/* FIX REMOVE BUTTON */
+.cart-right button {
+    all: unset;       
+    color: #e74c3c;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cart-right button:hover {
+    text-decoration: underline;
+}
+
+/* Total */
+h3 {
+    text-align: left;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+/* Actions */
+.cart-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.cart-actions a,
+.cart-actions button {
+    all: unset;   
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+
+/* Buttons */
+.cart-actions a {
+    background: #3498db;
+}
+
+.cart-actions .checkout-btn {
+    background: #27ae60;
+}
+
+.cart-actions button {
+    background: #e67e22;
+}
+
+.cart-actions a:hover,
+.cart-actions button:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,116 @@
+@import url("../../../USER/MVC/Css/theme.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*BODY*/
+body {
+    background: #f5f6fa;
+    padding: 30px;
+    color: #333;
+}
+
+/*BACK LINK*/
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/*MAIN CONTAINER */
+.details-container {
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 6px;
+    display: flex;
+    gap: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/*BOOK IMAGE*/
+.book-image {
+    flex: 1;
+    text-align: center;
+}
+
+.book-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+/*BOOK INFO*/
+.book-info {
+    flex: 2;
+}
+
+.book-info h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.book-info p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/*PRICE*/
+.final-price {
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/*STATUS*/
+.status {
+    font-weight: bold;
+}
+
+/*DESCRIPTION*/
+.description {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f9f9f9;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
+
+/*ADD TO CART*/
+.cart-btn {
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cart-btn:hover {
+    background: #219150;
+}
+
+.cart-btn:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+}
+
+/*CART MESSAGE*/
+.cartMsg {
+    color: green;
+    font-size: 13px;
+}

@@ -1,0 +1,94 @@
+@import url("../../../USER/MVC/Css/theme.css");
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.page-title {
+    display: block;         
+    text-align: center;   
+    font-size: 28px;
+    font-weight: bold;
+    color: #8B0000;
+    padding: 8px 15px;
+    border: 2px solid #8B0000;
+    border-radius: 6px;
+    background-color: #f4f4f4;
+    margin: 0 auto 20px auto;  
+}
+
+
+.filter-box {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+.filter-box input[type="date"] {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-box button {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8B0000;  
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.filter-box button:hover {
+    background-color: #5c0000;
+}
+
+
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.report-table th,
+.report-table td {
+    padding: 10px 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+
+.report-table th {
+    background-color: #8B0000; 
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.report-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.report-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.total-row {
+    background-color: #8B0000;  
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+@import url("../../../USER/MVC/Css/theme.css");
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #bbf7d0, #86efac);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.success-card {
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.check {
+    font-size: 60px;
+    color: #22c55e;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #16a34a;
+}
+
+.details {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.details p {
+     margin: 6px 0;
+}
+
+.details span {
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1e40af;
+}

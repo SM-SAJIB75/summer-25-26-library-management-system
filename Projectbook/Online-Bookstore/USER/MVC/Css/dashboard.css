@@ -1,0 +1,318 @@
+@import url("../../../USER/MVC/Css/theme.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F3A5F;
+}
+
+.header .nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.disabled-link {
+    pointer-events: none;
+    color: gray;
+    cursor: not-allowed;
+}
+
+/* Welcome Text */
+.welcome-text {
+    background-color: #2575fc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px auto 25px auto;
+    width: fit-content;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background: linear-gradient(135deg, #0F2444 0%, #1F3A5F 55%, #2C5F7C 100%);
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #E8ECF3;
+}
+
+.banner-btn {
+    background-color: #C89B3C;
+    color: #1F3A5F;
+    font-weight: 700;
+    padding: 12px 30px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.banner-btn:hover {
+    background-color: #A97F26;
+    color: #fff;
+}
+
+/* Search Section */
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.search-container {
+    display: flex;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-btn {
+    width: 60px;
+    background-color: #2575fc;
+    border: 1px solid #2575fc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+}
+
+/* Section */
+.book-section {
+    padding: 40px 0;
+    background-color: #f4f6f8;
+}
+
+.book-section h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+/* Container */
+.book-grid-container {
+    width: 1100px;
+    margin: auto;
+}
+
+/* Grid */
+.book-grid {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* Card */
+.book-card {
+    width: 220px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Image */
+.book-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+/* Title */
+.book-card h4 {
+    font-size: 16px;
+    margin: 12px;
+    color: #333;
+}
+
+/* Price */
+.book-card p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 14px;
+}
+
+.new-price {
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Sold info */
+.book-card small {
+    display: block;
+    margin-bottom: 5px;
+    color: #777;
+}
+
+/* Button */
+.book-card {
+    width: 220px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.book-card:hover {
+    width: 240px;  
+    height: auto;  
+    border: 2px solid #2575fc;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+    background-color: #f9faff;
+}
+
+.book-card .btn {
+    display: inline-block;
+    margin: 12px 0 15px;
+    padding: 10px 22px;          
+    background-color: #2575fc;   
+    color: #fff;
+    font-weight: 600;            
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 8px;         
+    border: none;                 
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.book-card .btn:hover {
+    background-color: #1e5edb;  
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    transform: scale(1.05);         
+}
+
+/* Discount Badge */
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e63946;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    padding: 50px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-section {
+    width: 32%;
+    min-width: 200px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.footer-section h3,h4 {
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.footer-section p, a {
+    font-size: 14px;
+    color: #cbd5e1;
+}
+
+.footer-section a:hover {
+    color: #4dabf7;
+}

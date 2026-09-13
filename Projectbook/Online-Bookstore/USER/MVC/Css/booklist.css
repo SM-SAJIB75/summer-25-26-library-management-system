@@ -1,0 +1,139 @@
+@import url("../../../USER/MVC/Css/theme.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eef4fb;
+    padding: 20px;
+}
+
+/* Title */
+.page-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Search */
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.search-container {
+    display: flex;
+    width: 60%;
+    max-width: 500px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+
+.search-btn {
+    width: 55px;
+    background: #2575fc;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn img {
+    width: 22px;
+}
+
+/* Category */
+.category-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    background: white;
+    border: 1px solid #4a90e2;
+    color: #4a90e2;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.category-btn:hover {
+    background: #4a90e2;
+    color: white;
+}
+
+.category-btn.active {
+    background: #1F3A5F;
+    border-color: #1F3A5F;
+    color: white;
+}
+
+/* Book List */
+.book-grid {
+    text-align: center;
+}
+
+/* Book Card */
+.book {
+    display: inline-block;
+    width: 200px;
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.book img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.book h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: #4a90e2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.status {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Button */
+.cart-btn {
+    width: 100%;
+    padding: 8px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-btn:hover {
+    background: #357abd;
+}

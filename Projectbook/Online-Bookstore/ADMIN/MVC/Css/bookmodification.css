@@ -1,0 +1,126 @@
+@import url("../../../USER/MVC/Css/theme.css");
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+     text-align: center;            
+    color: #fff;                     
+    background-color: #2980b9;       
+    font-size: 26px;                  
+    font-weight: bold;                
+    border: 3px solid #1f618d;       
+    border-radius: 10px;             
+    padding: 10px 20px;           
+    margin: 30px auto;            
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.back-dashboard {
+    display: inline-block;       
+    padding: 8px 15px;              
+    background-color: #be0c1b;   
+    color: white;                 
+    text-decoration: none;     
+    border-radius: 5px;             
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0px 0 20px 20px;  
+}
+
+.back-dashboard:hover {
+    background-color: #b31d1d;     
+}
+
+form {
+    background-color: #fff;
+    width: 500px;      
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px; /* reduced spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    width: 20%;       
+    margin: 8px auto 0 auto;
+    display: block;   
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none; /* remove underline */
+}
+
+a.button-link {
+    display: block;          
+    width: 20%;               
+    margin: 8px auto 0 auto; 
+    padding: 10px;
+    background-color: #2196f3; 
+    color: white;
+    text-align: center;      
+    text-decoration: none;    
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a.button-link:hover {
+    background-color: #1976d2;
+}
+
+.alert {
+    width: 500px;
+    max-width: 90%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.alert-error {
+    background-color: #f44336;
+    color: white;
+}
+
+.alert-success {
+    background-color: #4caf50;
+    color: white;
+}

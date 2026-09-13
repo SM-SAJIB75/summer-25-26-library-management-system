@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+form {
+    width: 350px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.output {
+    width: 350px;                
+    background-color: #e6ffe6;    
+    border: 1px solid #4CAF50;    
+    padding: 15px;
+    margin: 20px auto;          
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.output h3 {
+    text-align: center;
+    color: #4CAF50;          
+    margin-top: 0;
+}
+
+
+.success {
+    color: rgb(11, 128, 0);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#success-msg {
+    color: green;          
+    font-size: 18px;      
+    text-align: center; 
+    margin-top: 10px;    
+    font-weight: bold;
+}
+
+.error {
+    color: red; 
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}

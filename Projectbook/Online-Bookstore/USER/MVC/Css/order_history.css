@@ -1,0 +1,130 @@
+@import url("../../../USER/MVC/Css/theme.css");
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Page */
+body{
+    font-family:"Segoe UI", Arial, sans-serif;
+    background:#f4f6f8;
+    color:#333;
+}
+
+/* Container */
+.container{
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
+}
+
+/* Title */
+.page-title{
+    text-align:center;
+    font-size:30px;
+    font-weight:600;
+    margin-bottom:30px;
+}
+
+/* Order card */
+.order-card{
+    background:#ffffff;
+    border-radius:14px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Order header */
+.order-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.order-head h3{
+    font-size:20px;
+    margin-bottom:6px;
+}
+
+.order-head p{
+    font-size:14px;
+    color:#555;
+}
+
+/* Toggle button */
+.toggle-btn{
+    border:none;
+    background:#2575fc;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:600;
+    font-size:14px;
+}
+
+.toggle-btn:hover{
+    opacity:0.9;
+}
+
+/* Items section */
+.items-box{
+    margin-top:16px;
+    border-top:1px solid #e5e5e5;
+    padding-top:14px;
+}
+
+/* Table */
+.items-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.items-table th,
+.items-table td{
+    padding:10px;
+    border-bottom:1px solid #eee;
+    text-align:left;
+    font-size:14px;
+}
+
+.items-table th{
+    background:#f6f8fa;
+    font-weight:600;
+}
+
+/* Empty message */
+.empty{
+    text-align:center;
+    margin-top:40px;
+    font-size:16px;
+    color:#777;
+}
+
+/* Bottom actions */
+.actions{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    margin-top:25px;
+}
+
+/* Buttons */
+.btn{
+    display:inline-block;
+    background:#3498db;
+    color:#fff;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    font-size:14px;
+}
+
+.btn:hover{
+    opacity:0.9;
+}

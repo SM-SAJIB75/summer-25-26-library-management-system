@@ -1,0 +1,147 @@
+@import url("../../../USER/MVC/Css/theme.css");
+.book-list-title {
+    text-align: center;            
+    color: #fff;                     
+    background-color: #2980b9;       
+    font-size: 26px;                  
+    font-weight: bold;                
+    border: 3px solid #1f618d;       
+    border-radius: 10px;             
+    padding: 10px 20px;           
+    margin: 30px auto;            
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.btn-add-book {
+    display: block;                
+    width: 20%;                    
+    margin: 0px auto;             
+    padding: 10px;
+    background-color: #27ae60;     
+    color: white;              
+    text-align: center;           
+    text-decoration: none;         
+    border-radius: 5px;             
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-add-book:hover {
+    background-color: #1e8449;     
+}
+
+.back-dashboard {
+    display: inline-block;         
+    padding: 8px 15px;             
+    background-color: #be0c1b;     
+    color: white;                 
+    text-decoration: none;          
+    border-radius: 5px;           
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0px 0 20px 20px;      
+}
+
+.back-dashboard:hover {
+    background-color: #b31d1d;     
+}
+
+.table-container {
+    width: 95%;
+    margin: 0 auto 40px auto;
+    overflow-x: auto; 
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    font-size: 14px;
+    min-width: 900px;
+}
+
+
+th {
+    background-color: #2980b9; 
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+
+td {
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ecf0f1; 
+}
+
+
+td img {
+    width: 70px;
+    border-radius: 4px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 90%;
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+button.update-btn,button.delete-btn {
+    padding: 8px 12px;    
+    font-size: 14px;        
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;     
+    cursor: pointer;
+    margin: 3px 0;
+    width: 80px;            
+}
+
+button.update-btn {
+    background-color: #27ae60; 
+    color: white;
+}
+
+button.update-btn:hover {
+    background-color: #1e8449; 
+}
+
+
+button.delete-btn {
+    background-color: #c0392b;
+    color: white;
+}
+
+button.delete-btn:hover {
+    background-color: #96281b; 
+}
+
+

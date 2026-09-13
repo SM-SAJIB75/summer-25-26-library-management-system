@@ -1,0 +1,146 @@
+/* ============================================================
+   Shared professional theme for the whole project.
+   Include this BEFORE the page's own stylesheet so it sets the
+   base look, and the page CSS can still override specifics.
+   ============================================================ */
+
+:root {
+    --color-primary:      #1F3A5F;  /* deep navy - header/brand */
+    --color-primary-dark: #142942;
+    --color-accent:       #C89B3C;  /* warm gold - buttons/highlights */
+    --color-accent-dark:  #A97F26;
+    --color-bg:           #F5F6FA;
+    --color-surface:      #FFFFFF;
+    --color-text:         #2B2D33;
+    --color-muted:        #6B7280;
+    --color-border:       #E3E6EC;
+    --color-success:      #1E8E5A;
+    --color-error:        #C0392B;
+    --radius:             10px;
+    --shadow:             0 4px 14px rgba(31, 58, 95, 0.08);
+}
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: "Segoe UI", "Poppins", Arial, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+h1, h2, h3 { color: var(--color-primary); }
+
+a { color: var(--color-primary); }
+a:hover { color: var(--color-accent-dark); }
+
+.container, .content {
+    background: var(--color-surface);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+input[type="text"], input[type="password"], input[type="email"],
+input[type="number"], select, textarea {
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(31,58,95,0.12);
+}
+
+button, input[type="submit"] {
+    background: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+button:hover, input[type="submit"]:hover {
+    background: var(--color-accent-dark);
+}
+
+.error   { color: var(--color-error); font-size: 12px; }
+.successmsg { color: var(--color-success); }
+.errormsg   { color: var(--color-error); }
+
+/* Header bar used across ADMIN / VENDOR / STAFF panels */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-primary);
+    color: #fff;
+    padding: 14px 24px;
+}
+.header .logo span { font-weight: 700; font-size: 18px; letter-spacing: 0.5px; }
+.header .nav a, .header .nav span { color: #fff; margin-left: 18px; text-decoration: none; }
+.header .nav a:hover { color: var(--color-accent); }
+
+/* Dashboard cards */
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.dashboard-cards .card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 24px;
+    width: 260px;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.dashboard-cards .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(31,58,95,0.15);
+}
+.dashboard-cards .card h3 { margin: 0 0 8px; color: var(--color-primary); }
+.dashboard-cards .card p  { margin: 0; color: var(--color-muted); }
+
+/* Tables (used across Admin / Staff CRUD screens) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--color-surface);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+table th, table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--color-border);
+    text-align: left;
+    font-size: 14px;
+}
+table th {
+    background: var(--color-primary);
+    color: #fff;
+    font-weight: 600;
+}
+table tr:hover td { background: #FAFBFD; }
+
+.search-bar { display: flex; gap: 8px; margin-bottom: 16px; }
+.search-bar input { flex: 1; }
+
+.create-box {
+    background: var(--color-surface);
+    border: 1px dashed var(--color-border);
+    border-radius: var(--radius);
+    padding: 14px;
+    margin-bottom: 20px;
+}
+.create-box summary { cursor: pointer; font-weight: 600; color: var(--color-primary); }
+.create-box form { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+
+.inline-form { display: inline-block; margin: 0; }
