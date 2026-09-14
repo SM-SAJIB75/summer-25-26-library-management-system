@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php
 session_start();
 include("../Db/dbregister.php"); // $conn = mysqli_connect(...)
@@ -41,7 +39,7 @@ if (isset($_GET['category']) && trim($_GET['category']) != "") {
         </button>
     </div>
 </form>
-//Pushpita
+
 <!-- CATEGORY SECTION -->
 <div class="category-section">
     <a href="#" class="category-btn category-filter" data-category="" data-active="<?php echo $category === '' ? '1' : '0'; ?>">All</a>
@@ -68,4 +66,3 @@ window.INITIAL_CATEGORY = <?php echo json_encode((string)$category); ?>;
 <script src="../Js/booklistajax.js"></script>
 </body>
 </html>
->>>>>>> a57efd6d448d004353295a51670f4b004131158f
